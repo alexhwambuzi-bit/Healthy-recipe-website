@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.container {
+  width: 100%;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.nav {
+  display: flex;
+  gap: 1.75rem;
+}
+
+.nav a{
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+
+
+.top {
+  padding: 2.5rem 0 3.5rem;
+  text-align: center;
+}
+
+
+
+.top h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+
+  margin-bottom: 1rem;
+}
+
+.top-subtitle {
+  font-size: 1.05rem;
+  margin-bottom: 1.75rem;
+  
+}
+
+.banner-image {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.banner-image img{
+  border-radius: 16px;
+}
+
+.top-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 16 / 9;
+}
+
+
+
+
+.features {
+  padding: 3.5rem 0 4rem;
+  
+}
+
+.features h2 {
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+
+.features-grid {
+  display: grid;
+  padding: 5rem;
+  
+}
+
+.feature-card{
+  background-color: antiquewhite;
+  width: 80%;
+  border-radius: 4px;
+}
+
+
+
+.feature-image {
+  height: 180px;
+  overflow: hidden;
+}
+
+.feature-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.feature-content {
+  padding: 1.25rem 1.35rem 1.5rem;
+}
+
+.feature-content h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.feature-content p {
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+
+
+.fact {
+  padding: 2.5rem 0;
+  text-align: center;
+
+}
+
+.fact h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.fact p {
+  font-size: 0.98rem;
+  margin: 0 auto;
+}
+
+
+.footer {
+  background: var(--primary);
+  color: #e8f0ed;
+  padding: 1.25rem 0;
+  text-align: center;
+  font-size: 0.88rem;
+}
+
+
+
+
+
+
+
+
+
+
+
